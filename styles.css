@@ -1524,8 +1524,10 @@ header{
         overflow-clip-margin:content-box;
         overflow: clip;
         object-fit: cover;
-        width: 272px;
-        height:258px;
+        /* width: 272px;
+        height:258px; */
+        width: 100%;
+        
         margin-bottom: 12px;
         border-radius: 12px;
 
@@ -1545,7 +1547,9 @@ header{
         display:none;
     }
     .first-sec-1{
-        display: grid;
+        display: flex;
+        flex-direction: column;
+        
         position: relative;
     }
     .footer{
